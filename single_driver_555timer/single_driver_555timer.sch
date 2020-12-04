@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_US R?
+U 1 1 5FC9BB56
+P 5550 2400
+F 0 "R?" V 5345 2400 50  0000 C CNN
+F 1 "R_US" V 5436 2400 50  0000 C CNN
+F 2 "" V 5590 2390 50  0001 C CNN
+F 3 "~" H 5550 2400 50  0001 C CNN
+	1    5550 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC9E0F7
+P 4400 3050
+F 0 "C?" H 4515 3096 50  0000 L CNN
+F 1 "C" H 4515 3005 50  0000 L CNN
+F 2 "" H 4438 2900 50  0001 C CNN
+F 3 "~" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5FC9EEBF
+P 5200 1650
+F 0 "D?" V 5246 1522 50  0000 R CNN
+F 1 "DIODE" V 5155 1522 50  0000 R CNN
+F 2 "" H 5200 1650 50  0001 C CNN
+F 3 "~" H 5200 1650 50  0001 C CNN
+	1    5200 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5FCA16A7
+P 4700 2150
+F 0 "RV?" V 4493 2150 50  0000 C CNN
+F 1 "R_POT" V 4584 2150 50  0000 C CNN
+F 2 "" H 4700 2150 50  0001 C CNN
+F 3 "~" H 4700 2150 50  0001 C CNN
+	1    4700 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5FCA311F
+P 4150 1650
+F 0 "D?" V 4104 1778 50  0000 L CNN
+F 1 "DIODE" V 4195 1778 50  0000 L CNN
+F 2 "" H 4150 1650 50  0001 C CNN
+F 3 "~" H 4150 1650 50  0001 C CNN
+	1    4150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCA5992
+P 4700 1200
+F 0 "R?" H 4632 1154 50  0000 R CNN
+F 1 "R_US" H 4632 1245 50  0000 R CNN
+F 2 "" V 4740 1190 50  0001 C CNN
+F 3 "~" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCAC5D9
+P 4700 3050
+F 0 "C?" H 4815 3096 50  0000 L CNN
+F 1 "C" H 4815 3005 50  0000 L CNN
+F 2 "" H 4738 2900 50  0001 C CNN
+F 3 "~" H 4700 3050 50  0001 C CNN
+	1    4700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCACB92
+P 5000 3050
+F 0 "C?" H 5115 3096 50  0000 L CNN
+F 1 "C" H 5115 3005 50  0000 L CNN
+F 2 "" H 5038 2900 50  0001 C CNN
+F 3 "~" H 5000 3050 50  0001 C CNN
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCACEA8
+P 5300 3050
+F 0 "C?" H 5415 3096 50  0000 L CNN
+F 1 "C" H 5415 3005 50  0000 L CNN
+F 2 "" H 5338 2900 50  0001 C CNN
+F 3 "~" H 5300 3050 50  0001 C CNN
+	1    5300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCAD2B9
+P 5900 2350
+F 0 "C?" H 6015 2396 50  0000 L CNN
+F 1 "C" H 6015 2305 50  0000 L CNN
+F 2 "" H 5938 2200 50  0001 C CNN
+F 3 "~" H 5900 2350 50  0001 C CNN
+	1    5900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FCB60E6
+P 4400 3200
+F 0 "#PWR?" H 4400 2950 50  0001 C CNN
+F 1 "Earth" H 4400 3050 50  0001 C CNN
+F 2 "" H 4400 3200 50  0001 C CNN
+F 3 "~" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FCB6D5D
+P 4700 3200
+F 0 "#PWR?" H 4700 2950 50  0001 C CNN
+F 1 "Earth" H 4700 3050 50  0001 C CNN
+F 2 "" H 4700 3200 50  0001 C CNN
+F 3 "~" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FCBA366
+P 5000 3200
+F 0 "#PWR?" H 5000 2950 50  0001 C CNN
+F 1 "Earth" H 5000 3050 50  0001 C CNN
+F 2 "" H 5000 3200 50  0001 C CNN
+F 3 "~" H 5000 3200 50  0001 C CNN
+	1    5000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FCBA66D
+P 5300 3200
+F 0 "#PWR?" H 5300 2950 50  0001 C CNN
+F 1 "Earth" H 5300 3050 50  0001 C CNN
+F 2 "" H 5300 3200 50  0001 C CNN
+F 3 "~" H 5300 3200 50  0001 C CNN
+	1    5300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1450 4700 1450
+Wire Wire Line
+	4700 1450 4700 1350
+Wire Wire Line
+	5200 1450 4700 1450
+Connection ~ 4700 1450
+Wire Wire Line
+	5200 1850 5200 2150
+Wire Wire Line
+	5200 2150 4850 2150
+Wire Wire Line
+	4550 2150 4150 2150
+Wire Wire Line
+	4150 2150 4150 1850
+Text GLabel 7050 1950 2    50   Input ~ 0
+6
+Text GLabel 6050 1550 0    50   Input ~ 0
+6
+Text GLabel 6050 1950 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6550 1350 6550 1050
+Text GLabel 6550 1350 2    50   Input ~ 0
+VCC
+$Comp
+L power:+9V #PWR?
+U 1 1 5FCBF2BE
+P 6550 1050
+F 0 "#PWR?" H 6550 900 50  0001 C CNN
+F 1 "+9V" H 6565 1223 50  0000 C CNN
+F 2 "" H 6550 1050 50  0001 C CNN
+F 3 "" H 6550 1050 50  0001 C CNN
+	1    6550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5FCC0043
+P 4700 1050
+F 0 "#PWR?" H 4700 900 50  0001 C CNN
+F 1 "+9V" H 4715 1223 50  0000 C CNN
+F 2 "" H 4700 1050 50  0001 C CNN
+F 3 "" H 4700 1050 50  0001 C CNN
+	1    4700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer:LM555xN U?
+U 1 1 5FCC3B00
+P 6550 1750
+F 0 "U?" H 6550 2331 50  0000 C CNN
+F 1 "LM555xN" H 6550 2240 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 7200 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 7400 1350 50  0001 C CNN
+	1    6550 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 2300 2    50   Input ~ 0
+6
+$EndSCHEMATC
