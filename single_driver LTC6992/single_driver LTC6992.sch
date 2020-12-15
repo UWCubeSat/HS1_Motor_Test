@@ -807,10 +807,6 @@ F 3 "~" H 4800 3600 50  0001 C CNN
 	1    4800 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 3600 2    50   Output ~ 0
-IN
-Text GLabel 3200 3900 0    50   Input ~ 0
-IN
 Wire Wire Line
 	3600 3300 3500 3300
 Connection ~ 3600 3300
@@ -1164,4 +1160,12 @@ Wire Wire Line
 	3050 5150 2900 5150
 Wire Wire Line
 	3050 4950 2900 4950
+Text Label 5000 3600 0    50   ~ 0
+IN
+Text Label 3150 3900 2    50   ~ 0
+IN
+Wire Wire Line
+	5000 3600 4950 3600
+Wire Wire Line
+	3200 3900 3150 3900
 $EndSCHEMATC
