@@ -562,17 +562,6 @@ Wire Wire Line
 	3350 2300 3500 2300
 Text Notes 6900 2550 0    50   ~ 0
 X7R
-$Comp
-L Device:R_Small R5
-U 1 1 5FA742C3
-P 6650 4150
-F 0 "R5" V 6650 4150 50  0000 C CNN
-F 1 "200k" V 6550 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 4150 50  0001 C CNN
-F 3 "~" H 6650 4150 50  0001 C CNN
-	1    6650 4150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6650 4050 6700 4050
 Wire Wire Line
@@ -1168,4 +1157,6 @@ Wire Wire Line
 	5000 3600 4950 3600
 Wire Wire Line
 	3200 3900 3150 3900
+Wire Wire Line
+	6650 4050 6650 4250
 $EndSCHEMATC
