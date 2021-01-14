@@ -123,7 +123,7 @@
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5FA7B2EB)
-    (fp_text reference J3 (at -2.413 1.397) (layer F.SilkS)
+    (fp_text reference J4 (at 0 -2.159) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x03_Male (at 0 7.41) (layer F.Fab)
