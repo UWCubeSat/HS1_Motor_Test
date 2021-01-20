@@ -1,4 +1,4 @@
-update=1/13/2021 6:30:54 PM
+update=1/19/2021 3:30:38 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=single_driver_Modular_10970.net
+LastNetListRead=Modular_single_driver_Regulator.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
