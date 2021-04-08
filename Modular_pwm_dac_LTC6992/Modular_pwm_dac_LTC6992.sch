@@ -95,12 +95,12 @@ Connection ~ 3350 2300
 Wire Wire Line
 	3350 2300 3500 2300
 $Comp
-L Timer:LTC6994xDCB-2 U1
+L HS2_Parts:LTC6992-TSOT-23-6 U1
 U 1 1 5FCCF2DC
 P 3600 3900
 F 0 "U1" H 3950 4100 50  0000 L CNN
 F 1 "LTC6992-1 (Rev. D)" H 3650 4200 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm" H 3600 3500 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3600 3500 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf" H 3350 4250 50  0001 C CNN
 	1    3600 3900
 	1    0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 5FA0A78B
 P 4800 3600
 F 0 "RV1" H 4730 3554 50  0000 R CNN
 F 1 "10k" H 4730 3645 50  0000 R CNN
-F 2 "HS2_parts:oldpot" H 4800 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 3600 50  0001 C CNN
 F 3 "~" H 4800 3600 50  0001 C CNN
 	1    4800 3600
 	1    0    0    -1  

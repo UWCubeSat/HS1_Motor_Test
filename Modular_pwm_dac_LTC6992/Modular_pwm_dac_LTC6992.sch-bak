@@ -95,12 +95,12 @@ Connection ~ 3350 2300
 Wire Wire Line
 	3350 2300 3500 2300
 $Comp
-L Timer:LTC6994xDCB-2 U1
+L HS2_Parts:LTC6992-TSOT-23-6 U1
 U 1 1 5FCCF2DC
 P 3600 3900
 F 0 "U1" H 3950 4100 50  0000 L CNN
 F 1 "LTC6992-1 (Rev. D)" H 3650 4200 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm" H 3600 3500 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3600 3500 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf" H 3350 4250 50  0001 C CNN
 	1    3600 3900
 	1    0    0    -1  
@@ -364,14 +364,14 @@ F 3 "" H 5000 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Male J3
+L Connector:Conn_01x03_Male J3
 U 1 1 5FA7B2EB
-P 6400 2500
-F 0 "J3" H 6372 2474 50  0000 R CNN
-F 1 "Conn_01x08_Male" H 6372 2383 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6400 2500 50  0001 C CNN
-F 3 "~" H 6400 2500 50  0001 C CNN
-	1    6400 2500
+P 6400 2300
+F 0 "J3" H 6372 2274 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 6350 2300 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6400 2300 50  0001 C CNN
+F 3 "~" H 6400 2300 50  0001 C CNN
+	1    6400 2300
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
