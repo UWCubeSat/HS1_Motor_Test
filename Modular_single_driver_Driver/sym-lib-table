@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Modular_single_driver_Driver-rescue)(type Legacy)(uri ${KIPRJMOD}/Modular_single_driver_Driver-rescue.lib)(options "")(descr ""))
+)
